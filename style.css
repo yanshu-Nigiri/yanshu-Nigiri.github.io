@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+body {
+    background-color: aliceblue;
+    /*background-image: url("./");*/
+    font-family: "Kiwi Maru", serif;
+    line-height: 1.5;
+    color: #333;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 20px;
+    background-color: white;
+}
+#welcome {
+    text-align: center;
+}
+#goodluck {
+    text-align: center;
+}
+a:hover {
+    color: goldenrod;
+}
+
+.section {
+    padding: 30px 15px;
+}
+.section-headline{
+    background-color: beige;
+}
+.Steam_logo {
+    align-items: center;
+    text-align: center;
+    display: flex
+}
+.Xbox_logo {
+    align-items: center;
+    text-align: center;
+    display: flex
+}
+.Discord_logo {
+    align-items: center;
+    text-align: center;
+    display: flex
+}
+.YouTube_logo {
+    align-items: center;
+    text-align: center;
+    display: flex
+}
+.Reddit_logo {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.profile_headline {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.WarThunder {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.Assetto_Corsa {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.minecraft {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.Cities_Skylines {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.Fortnite {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
