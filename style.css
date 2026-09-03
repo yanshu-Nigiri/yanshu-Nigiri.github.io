@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     background-color: aliceblue;
     /*background-image: url("./");*/
@@ -22,6 +25,7 @@ h3 {
 }
 #goodluck {
     text-align: center;
+    color: goldenrod;
 }
 a:hover {
     color: goldenrod;
@@ -84,6 +88,88 @@ a:hover {
     display: flex;
 }
 .Fortnite {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+header {
+    background: lightblue;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+}
+.drawer-line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    left: 0;
+}
+#navigation {
+    position: absolute;
+    height: 100vh;
+    width: 40%;
+    left: -40%;
+    top: 0;
+    background: lightblue;
+    z-index: 9998;
+}
+#navigation ul {
+    padding-top: 50px;
+}
+#navigation ul li {
+    list-style: none;
+    font-size: 24px;
+    padding-left: 30px;
+}
+#navigation ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#drawer-navigation {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+    z-index: 9999;
+}
+#drawer-navigation.drawer-line {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 5px;
+    background: black;
+    border-radius: 5px;
+}
+#drawer-navigation #line1 {
+    top: 0;
+}
+#drawer-navigation #line2 {
+    top: 13px;
+}
+#drawer-navigation #line3 {
+    bottom: 0;
+}
+.in {
+    transform: translateX(100%);
+}
+#drawer-navigation.line_1 {
+    transform: translateY(10px) rotate(-45deg);
+}
+#drawer-navigation.line_2 {
+    opacity: 0;
+}
+#drawer-navigation.line_3 {
+    transform: translateY(-10px) rotate(45deg);
+}
+#my_logo {
     align-items: center;
     text-align: center;
     display: flex;
