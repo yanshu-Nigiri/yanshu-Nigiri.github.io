@@ -10,6 +10,10 @@ body {
     line-height: 1.5;
     color: #333;
 }
+.header_logo img {
+    width: 60px;
+    height: auto;
+}
 h1 {
     text-align: center;
 }
@@ -19,6 +23,9 @@ h3 {
     border: 3px solid black;
     margin: 20px;
     background-color: white;
+}
+ul {
+    list-style: none;
 }
 #welcome {
     text-align: center;
@@ -34,30 +41,41 @@ a:hover {
 .section {
     padding: 30px 15px;
 }
+.section2 {
+    padding: 30px 15px;
+}
+.section3 {
+    padding: 30px 15px;
+}
 .section-headline{
     background-color: beige;
 }
 .Steam_logo {
     align-items: center;
     text-align: center;
-    display: flex
+    display: flex;
 }
 .Xbox_logo {
     align-items: center;
     text-align: center;
-    display: flex
+    display: flex;
 }
 .Discord_logo {
     align-items: center;
     text-align: center;
-    display: flex
+    display: flex;
 }
 .YouTube_logo {
     align-items: center;
     text-align: center;
-    display: flex
+    display: flex;
 }
 .Reddit_logo {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.Duolingo_logo {
     align-items: center;
     text-align: center;
     display: flex;
@@ -69,34 +87,49 @@ a:hover {
 }
 .WarThunder {
     align-items: center;
-    text-align: center;
+    text-align: left;
     display: flex;
 }
 .Assetto_Corsa {
     align-items: center;
-    text-align: center;
+    text-align: left;
     display: flex;
 }
 .minecraft {
     align-items: center;
-    text-align: center;
+    text-align: left;
     display: flex;
 }
 .Cities_Skylines {
     align-items: center;
-    text-align: center;
+    text-align: left;
     display: flex;
 }
 .Fortnite {
     align-items: center;
+    text-align: left;
+    display: flex;
+}
+.my_logo {
+    align-items: center;
     text-align: center;
     display: flex;
+    padding: 20px 20px;
+}
+#my_name {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    margin: 10px;
 }
 header {
     background: lightblue;
     position: fixed;
     width: 100%;
     height: 90px;
+    border: 2px solid #333;
 }
 .drawer-line {
     display: block;
@@ -110,10 +143,11 @@ header {
     position: absolute;
     height: 100vh;
     width: 40%;
-    left: -40%;
+    left: -41%;
     top: 0;
     background: lightblue;
     z-index: 9998;
+    border: 2px solid #333;
 }
 #navigation ul {
     padding-top: 50px;
@@ -169,8 +203,9 @@ header {
 #drawer-navigation.line_3 {
     transform: translateY(-10px) rotate(45deg);
 }
-#my_logo {
-    align-items: center;
-    text-align: center;
-    display: flex;
+#my_hobby {
+    text-align: left;
+}
+#origin_of {
+    text-align: left;
 }
